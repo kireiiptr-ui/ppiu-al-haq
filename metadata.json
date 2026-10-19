@@ -1,0 +1,8 @@
+{
+  "name": "Remix PPIU Al-Haq - Portal Haji \u0026 Umrah Digital",
+  "description": "Pusat Pembelajaran Manasik, Informasi Jadwal Interaktif, dan Layanan Jamaah Digital Terintegrasi PPIU Al-Haq",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

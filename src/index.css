@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Amiri", serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Premium palette colors as requested */
+  --color-navy-ultra: #01071E;
+  --color-navy-dark: #0D1021;
+  --color-navy-blue: #1C2738;
+  --color-navy-slate: #263448;
+  --color-navy-gray: #344358;
+  --color-navy-metallic: #2B384D;
+  
+  --color-rose-gold: #9A7E75;
+  --color-copper-brown: #615458;
+  
+  /* Additional gold accents */
+  --color-gold-accent: #D4AF37;
+  --color-gold-light: #F9F6EE;
+  --color-gold-cream: #FAF6ED;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.85; }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 4s ease-in-out infinite;
+}
+
